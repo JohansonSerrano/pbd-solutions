@@ -5,7 +5,8 @@ public class MoreUserInputOfData {
         Scanner input = new Scanner(System.in);
 		
 		System.out.println("Please enter the following information so I can sell it for a profit!");
-		System.out.print("First name: ");
+		
+		System.out.print("\nFirst name: ");
 		String firstName = input.next();
 		System.out.print("Last name: ");
 		String lastName = input.next();
@@ -18,6 +19,6 @@ public class MoreUserInputOfData {
 		System.out.print("Average: ");
 		double average = input.nextDouble();
 			
-		System.out.print("Your information:\n Login: " + login + "\nID:    " + studentId + "\nName:  " + lastName + ", " + firstName + "\nAvg:   " + average + "\nGrade: " + grade );
+		System.out.print("\nYour information:\n Login: " + login + "\n ID:    " + studentId + "\n Name:  " + lastName + ", " + firstName + "\n Avg:   " + average + "\n Grade: " + grade );
 	}
 }
